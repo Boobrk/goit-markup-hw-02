@@ -1,7 +1,7 @@
 body {
   font-family: 'Roboto', sans-serif;
   color: #434455;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   font-size: 16px;
   line-height: 1.5;
 }
@@ -73,6 +73,10 @@ ul {
   color: #ffffff;
   text-align: center;
   padding: 20px 0;
+  height: auto;
+  left: 0;
+  width: 100%;
+  position: relative;
 }
 
 .hero-title {
@@ -222,13 +226,11 @@ ul {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #f4f4fd;
-  margin: 10px;
+  color: #4d5ae5;
 }
 
-
 .author {
-  background-color: #2E2F42;
+  background-color: #2e2f42;
   color: #f4f4fd;
 }
 
@@ -237,4 +239,8 @@ ul {
   line-height: 1.5;
   color: #f4f4fd;
   letter-spacing: 0.02em;
+}
+
+.footer span {
+  color: #f4f4fd;
 }
