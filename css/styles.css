@@ -1,18 +1,21 @@
 body {
   font-family: 'Roboto', sans-serif;
   color: #434455;
-  background-color: #ffffff;
+  background-color: #FFFFFF;
   font-size: 16px;
   line-height: 1.5;
+  margin: 0;
 }
 
 a {
   text-decoration: none;
-  font-family: 'Roboto', sans-serif;
+  color: inherit;
 }
 
 ul { 
   list-style-type: none;
+  padding: 0;
+  margin: 0;
 }
 
 /* Header */
@@ -27,16 +30,12 @@ ul {
   text-transform: uppercase;
   color: #4d5ae5;
   text-decoration: none;
-  margin-bottom: 10px;
 }
 
 .nav-link {
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
   color: #2e2f42;
-  text-decoration: none;
 }
 
 .nav-link:hover, .nav-link:focus,
@@ -57,10 +56,7 @@ ul {
 .mail-tel a {
   font-weight: 400;
   font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
   color: #434455;
-  text-decoration: none;
 }
 
 .mail-tel a:hover, .mail-tel a:focus {
@@ -73,29 +69,19 @@ ul {
   color: #ffffff;
   text-align: center;
   padding: 20px 0;
-  height: auto;
-  left: 0;
-  width: 100%;
-  position: relative;
 }
 
 .hero-title {
-  font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.07;
-  letter-spacing: 0.02em;
   color: #ffffff;
   margin: 0;
 }
 
 .order-button {
   background-color: #4D5AE5;
-  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
   color: #ffffff;
   cursor: pointer;
   padding: 10px 20px;
@@ -116,10 +102,7 @@ ul {
 .name-section {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11;
-  letter-spacing: 0.02em;
   color: #2e2f42;
-  text-transform: capitalize;
   margin-bottom: 20px;
 }
 
@@ -133,7 +116,6 @@ ul {
 
 .advantages-descriptions {
   font-size: 16px;
-  line-height: 1.5;
   color: #434455;
 }
 
@@ -148,31 +130,25 @@ ul {
   background-color: #FFFFFF;
   padding: 20px;
   margin: 10px;
-  text-align: center;
 }
 
 .name-team {
   font-weight: 500;
   font-size: 20px;
-  line-height: 1.2;
   color: #2e2f42;
   margin-top: 10px;
 }
 
 .team-position {
-  font-weight: 400;
   font-size: 16px;
-  line-height: 1.5;
   color: #434455;
 }
 
 /* Portfolio Section */
 .portfolio-title {
   font-size: 36px;
-  line-height: 1.11;
   text-align: center;
   color: #2e2f42;
-  text-transform: capitalize;
   margin-bottom: 20px;
 }
 
@@ -183,13 +159,11 @@ ul {
 .project-heading {
   font-weight: 500;
   font-size: 20px;
-  line-height: 1.2;
   color: #2e2f42;
 }
 
 .project-description {
   font-size: 16px;
-  line-height: 1.5;
   color: #434455;
 }
 
@@ -216,6 +190,7 @@ ul {
   background-color: #2e2f42;
   text-align: left;
   padding: 20px;
+  color: #f4f4fd;
 }
 
 
@@ -223,9 +198,6 @@ ul {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
   color: #4d5ae5;
 }
 
