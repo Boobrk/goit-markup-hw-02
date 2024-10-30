@@ -1,235 +1,207 @@
-body {
+body{
   font-family: 'Roboto', sans-serif;
   color: #434455;
   background-color: #FFFFFF;
   font-size: 16px;
   line-height: 1.5;
-  margin: 0;
-}
+  }
 
-a {
+  a{
   text-decoration: none;
-  color: inherit;
-}
+  }
 
-ul { 
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-}
-
-/* Header */
-
-
-.web_studio-main {
-  font-family: 'Raleway', sans-serif;
+  .web_studio-main{
+  font-family: "Raleway",sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #4d5ae5;
   text-decoration: none;
-}
+  color:#4d5ae5;
+  }
 
-.nav-link {
+  .web_studio-logo{
+  color: #2E2F42;
+  }
+
+  .nav-link{
   font-weight: 500;
   font-size: 16px;
-  color: #2e2f42;
-}
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2E2F42;
+  }
 
-.nav-link:hover, .nav-link:focus,
-.nav-link:active {
-  color: #404bbf;
-}
+  .nav-list:hover,
+  .nav-list:focus{
+  color: #404BBF;
+  }
 
-.web_studio-logo {
-  color: #2e2f42;
-}
-
-/* Контакты в header */
-.mail-tel {
-  font-style: normal;
-  color: #434455;
-}
-
-.mail-tel a {
+  .mail-tel{
   font-weight: 400;
   font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  font-style: normal;
   color: #434455;
-}
+  }
 
-.mail-tel a:hover, .mail-tel a:focus {
-  color: #404bbf;
-}
-
-/* Hero Section */
-.hero-image {
-  background-color: #2e2f42;
-  color: #ffffff;
-  text-align: center;
-  padding: 20px 0;
-}
-
-.hero-title {
-  font-weight: 700;
-  font-size: 56px;
-  color: #ffffff;
-  margin: 0;
-}
-
-.order-button {
-  background-color: #4D5AE5;
+  .address-list{
   font-weight: 500;
   font-size: 16px;
-  color: #ffffff;
-  cursor: pointer;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  transition: background-color 0.3s ease;
-}
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color:#434455;
+  }
 
-.order-button:hover,
-.order-button:focus {
-  background-color: #404BBF;
-}
-/* Advantages Section */
-.advantages {
+  .address-list:hover,
+  .address-list:focus{
+  color: #404BBF;
+  }
+
+  .section-one{
+  background-color: #2E2F42;
+  color: #fff;
+  }
+
+  .section-one-text{
+  font-size: 56px;
+  line-height: 1.07;
   text-align: center;
-}
+  letter-spacing: 0.02em;
+  color: #FFFFFF;
+  }
 
-.name-section {
-  font-weight: 700;
-  font-size: 36px;
-  color: #2e2f42;
-  margin-bottom: 20px;
-}
+  .section-one-button{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+  background-color:#4D5AE5 ;
+  color: #FFFFFF;
+  }
 
-.name-of-advantages {
+  .section-one-button:hover,
+  .section-one-button:focus{
+  background-color: #404BBF;
+  }
+
+  .section-two{
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  color: #2e2f42;
-  margin: 10px 0;
-}
+  color: #2E2F42;
+  }
 
-.advantages-descriptions {
+  .section-two-h{
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  }
+
+  .section-two-text{
+  font-weight: 400;
   font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   color: #434455;
-}
+  }
 
-/* Team Section */
-.title-section{
-  font-size: 36px;
+  .our-team{
+  background-color: #F4F4FD;
+  }
+
+  .title-section{
   font-weight: 700;
+  font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
   text-transform: capitalize;
-  color: #2e2f42;
-  background-color: #ffffff;
-}
+  color: #2E2F42;
+  }
 
-.image-team{
-  background-color: #ffffff;
-}
-.subtitle-team {
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  text-align: center;
-  background-color: #ffffff;
-  color: #2e2f42;
-}
-
-.text-team{
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  text-align: center;
-  background-color: #ffffff;
-  color: #434455;
-}
-
-
-/* Portfolio Section */
-.portfolio-title {
+  .our-team-h{
+  font-weight: 700;
   font-size: 36px;
+  line-height: 1.11;
   text-align: center;
-  color: #2e2f42;
-  margin-bottom: 20px;
-}
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2E2F42;
+  }
 
-.project-item img {
-  width: 360px;
-}
+  .our-team-list{
+  background-color: #FFFFFF;
+  }
 
-.project-heading {
-  font-weight: 500;
-  font-size: 20px;
-  color: #2e2f42;
-}
-
-.project-description {
-  font-size: 16px;
-  color: #434455;
-}
-
-.project-name {
-  font-family: "Roboto", sans-serif;
+  .our-team-etem{
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: #2e2f42;
-}
+  color: #2E2F42;
+  }
 
-.project-type {
-  font-family: "Roboto", sans-serif;
+  .our-team-text{
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-}
+  }
 
-/* Footer Section */
-.footer {
-  background-color: #2e2f42;
-  text-align: left;
-  padding: 20px;
-  color: #f4f4fd;
-}
+  .portfolio-title{
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
+  color: #2E2F42;
+  }
 
+  .portfolio-h{
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2E2F42;
+  }
 
-.web_studio-footer {
-  font-family: "Raleway", sans-serif;
+  .portfolio-text{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+  }
+
+  .footer{
+  background-color: #2E2F42;
+  }
+
+  .footer-logo{
+  font-family: "Raleway",sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #4d5ae5;
-}
+  color: #4D5AE5;
+  }
 
-.author {
-  background-color: #2e2f42;
-  color: #f4f4fd;
-}
+  .footer-logo-studio{
+  color: #F4F4FD;
+  }
 
-.footer-text {
-  font-size: 14px;
+  .footer-text{
+  font-weight: 400;
+  font-size: 16px;
   line-height: 1.5;
-  color: #f4f4fd;
   letter-spacing: 0.02em;
-}
-
-.footer span {
-  color: #f4f4fd;
-}
-.web_studio-footer span {
-  color: #f4f4fd;
-}
+  color: #F4F4FD;
+  }
