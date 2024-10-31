@@ -23,11 +23,11 @@ body{
   color:#4d5ae5;
   }
 
-  .web_studio-logo .nav-link {
+  .web_studio-main .web_studio-logo {
   color: #2E2F42;
   }
 
-  .footer-logo-studio .nav-link {
+  .web_studio-main .footer-logo-studio {
     color: #f4f4fd;
   }
 
@@ -37,6 +37,11 @@ body{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
+  }
+
+  .nav-link:hover,
+  .nav-link:focus {
+    color: #404BBF;
   }
 
   .mail-tel {
@@ -87,6 +92,7 @@ body{
   .section-one-button:hover,
   .section-one-button:focus{
   background-color: #404BBF;
+  letter-spacing: 0.04em;
   }
 
   .section-two{
@@ -101,11 +107,10 @@ body{
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  
+  color: #2E2F42;
   }
 
   .section-two-text{
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
