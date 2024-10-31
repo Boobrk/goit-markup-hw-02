@@ -27,7 +27,7 @@ body{
   color: #2E2F42;
   }
 
-  .web_studio-main .footer-logo-studio {
+  .footer-logo-studio {
     color: #f4f4fd;
   }
 
@@ -92,7 +92,6 @@ body{
   .section-one-button:hover,
   .section-one-button:focus{
   background-color: #404BBF;
-  letter-spacing: 0.04em;
   }
 
   .section-two{
