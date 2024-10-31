@@ -23,13 +23,19 @@ body{
   color:#4d5ae5;
   }
 
+  .header-logo {
+    margin-right: 76px;
+  }
+
   .header-logo .logo-part {
   color: #2E2F42;
   }
 
+  .footer-logo {
+    margin-bottom: 16px;
+  }
 
-
-  .footer-logo-studio .nav-link {
+  .footer-logo .logo-part {
     color: #f4f4fd;
   }
 
