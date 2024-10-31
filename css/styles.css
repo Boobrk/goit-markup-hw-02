@@ -39,6 +39,11 @@ body{
     color: #2e2f42;
   }
 
+  .nav-link:hover,
+  .nav-link:focus {
+    color: #404BBF;
+  }
+
   .mail-tel {
     font-style: normal;
   }
